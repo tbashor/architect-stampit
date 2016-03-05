@@ -1,0 +1,40 @@
+{
+  "name": "architect-stampit",
+  "description": "Architect.js plugin to expose the stampit library.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Todd Bashor",
+    "email": "todd@thestartersacademy.com"
+  },
+  "license": "MIT",
+  "main": "./service.js",
+  "keywords": [
+    "object",
+    "prototype",
+    "object oriented",
+    "browser",
+    "inheritance",
+    "oo",
+    "node",
+    "factory",
+    "class",
+    "architect",
+    "plugin"
+  ],
+  "plugin": {
+    "consumes": [
+      "debug"
+    ],
+    "provides": [
+      "stampit"
+    ]
+  },
+  "dependencies": {
+    "stampit": "2.1.1"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tbashor/architect-stampit.git"
+  }
+}
